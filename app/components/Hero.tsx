@@ -6,19 +6,19 @@ export default function Hero() {
   return (
     <section className="min-h-screen bg-gradient-to-b from-indigo-100 to-white flex items-center justify-center px-4">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-        {/* Doctor Image */}
+  
         <div className="flex justify-center">
           <Image
-            src="/doctor.jpg" // ✅ This is correct
-            alt="Dr. Serena Blake"
-            width={400}
-            height={400}
-            className="rounded-lg shadow-md object-cover"
-            priority
-          />
+  src="/doctor.jpg"
+  alt="Dr. Serena Blake"
+  width={400}
+  height={400}
+  className="rounded-lg shadow-md object-cover"
+  unoptimized 
+/>
         </div>
 
-        {/* Text Content */}
+
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
             Feel Better. Live Brighter.
